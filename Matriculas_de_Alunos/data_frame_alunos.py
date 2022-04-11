@@ -33,20 +33,3 @@ class Data_frame_alunos:
         return self.nomes
 
 
-'''data_nomes = Data_frame_alunos()
-
-print('Data Frame Feminino')
-print(f'Quantidade de Nomes Femininos: {len(data_nomes.feminino)}')
-print(data_nomes.feminino.sample(5))
-print('##' * 40)
-print('Data Frame Masculino')
-print(f'Quantidade de Nomes Masculinos: {len(data_nomes.masculino)}')
-print(data_nomes.masculino.sample(5))
-print('##' * 40)
-print('Junção dos Frames: Masculino e Feminino')
-print(f'Quantidade de Nomes: {data_nomes.qtd_nomes()}')
-print(data_nomes.nomes.sample(5))
-print('##' * 40)
-print(data_nomes.incluindo_id_dos_alunos())
-print('##' * 40)
-print(data_nomes.criando_dominios())'''

@@ -20,8 +20,3 @@ class Cursos:
         cursos['id'] = cursos.index + 1
         cursos = cursos.set_index('id')
         return cursos
-
-'''cursos = Cursos('http://tabela-cursos.herokuapp.com/index.html')
-cursos.url
-#print(cursos.get_cursos())
-print(cursos.alterando_index_cursos())'''
